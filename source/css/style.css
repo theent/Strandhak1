@@ -1,0 +1,237 @@
+body{
+  background-color: rgb(250,240,120);
+  color: rgb(100,146,255);
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 5;
+  background-color: white;
+  flex-grow: 1;
+  color: rgb(100,146,255);
+
+}
+.header img{
+  padding-left: 10px;
+}
+
+.nav{
+  position: fixed;
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+
+
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  position: relative;
+  flex-grow: 2;
+}
+
+
+
+
+.nav span{
+  margin: 10px;
+
+}
+
+.nav a{
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+
+.first{
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/dsc07259.jpg");
+  display: flex;
+  align-items: center;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mission{
+  background-color: white;
+  opacity: 0.8;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+.teas1{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  height: auto;
+}
+.teas1 .teas2 img {
+  margin: 10px;
+}
+
+
+
+.berry{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rum{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donut{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teas2{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  height: auto;
+}
+
+.myrtle{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.bedford{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.locations{
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: block;
+}
+
+
+.adresses{
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.downtown{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
+
+}
+
+.east{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.oakdale{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.teacozy1{
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: 200px;
+}
+
+#copyright{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  text-align: left;
+  align-items: center;
+}
+
+#copyright img {
+  margin-bottom: 40px;
+}
